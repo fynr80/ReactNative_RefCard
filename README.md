@@ -5,13 +5,13 @@ Wir bieten Ihnen eine Möglichkeit, gänzlich auf digitalisierte Karteikarten um
 Erstellen Sie einfach und schnell individuelle Kartensets mit Fragen/Antworten, lernen sie mit diesen und sehen sie sich ihren Lernerfolg durch unsere visualisierten Statistiken an.
 Durch die Cross-Platform Technologie ist RefCard sowohl mit iOS, als auch mit Android kompatibel.
 
-Product Owner
+Product Owner: 
 Samuel Schepp
 
 
-Scrum Master
+Scrum Master: 
 Fatih Yanar
 
 
-Mitglieder
+Mitglieder: 
 Cuong Duc Nguyen, Fatih Yanar, Gökhan Yilmaz, Ibrahim Eraslan, Jacques Jackeve Priso, Kaan Eray
