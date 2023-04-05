@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen Component renders correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "backgroundColor": "white",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 1.9,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginTop": 3,
+        "paddingLeft": 2,
+        "paddingRight": 2,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "height": 90,
+          "width": 120,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "paddingLeft": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+      testID="LastOpenedText"
+    >
+      Last Opened
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 2,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "opacity": 1,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "blue",
+          "borderRadius": 10,
+          "height": "80%",
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontSize": 20,
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "white",
+              "paddingLeft": 10,
+            },
+          ]
+        }
+      >
+        Diskrete Mathematik
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontSize": 20,
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "opacity": 0.8,
+              "paddingLeft": 10,
+            },
+          ]
+        }
+      >
+        15 Questions
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 2,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FD4365",
+          "borderRadius": 30,
+          "elevation": 15,
+          "height": "60%",
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 7,
+            "width": 0,
+          },
+          "shadowOpacity": 0.43,
+          "shadowRadius": 9.51,
+          "width": "46%",
+        }
+      }
+      testID="MyCatBtn"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontSize": 20,
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "#F6F6F6",
+              "textAlign": "center",
+            },
+          ]
+        }
+        testID="MyCatText"
+      >
+        My Category
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FBF9F9",
+          "borderRadius": 30,
+          "elevation": 15,
+          "height": "60%",
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 7,
+            "width": 0,
+          },
+          "shadowOpacity": 0.43,
+          "shadowRadius": 9.51,
+          "width": "46%",
+        }
+      }
+      testID="AllCatBtn"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontSize": 20,
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "black",
+              "textAlign": "center",
+            },
+          ]
+        }
+        testID="AllCatText"
+      >
+        All Category
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "flex": 8,
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
+    >
+      <RCTScrollView
+        data={Array []}
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        testID="ItemsList"
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

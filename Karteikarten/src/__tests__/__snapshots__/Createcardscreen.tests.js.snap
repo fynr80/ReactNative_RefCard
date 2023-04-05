@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Createcard Component renders correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "space-between",
+      "top": 30,
+    }
+  }
+>
+  <RNCSafeAreaView
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingLeft": 2,
+          "paddingRight": 2,
+        },
+        Object {
+          "alignItems": "flex-start",
+          "justifyContent": "center",
+          "top": -50,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "opacity": 1,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 20,
+            "fontWeight": "bold",
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      CREATE CARDS
+    </Text>
+    <Text
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </RNCSafeAreaView>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+        },
+        Object {
+          "flex": 1,
+          "textAlign": "center",
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "blue",
+        "borderRadius": 20,
+        "height": "65%",
+        "justifyContent": "space-around",
+        "marginBottom": 15,
+        "width": "95%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "alignSelf": "flex-start",
+            "fontSize": 18,
+            "marginLeft": 15,
+          },
+          Object {
+            "color": "white",
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      Question:
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      multiline={true}
+      onChangeText={[Function]}
+      rejectResponderTermination={true}
+      returnkeyType="Done"
+      style={
+        Array [
+          Object {
+            "borderRadius": 20,
+            "color": "white",
+            "height": "30%",
+            "width": "90%",
+          },
+          Object {
+            "marginBottom": 10,
+          },
+        ]
+      }
+      testID="QuestionTextInput"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "flex": 1,
+            "height": 3,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "alignSelf": "flex-start",
+            "fontSize": 18,
+            "marginLeft": 15,
+          },
+          Object {
+            "color": "white",
+          },
+        ]
+      }
+    >
+      Answer:
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      multiline={true}
+      onChangeText={[Function]}
+      rejectResponderTermination={true}
+      returnkeyType="Done"
+      style={
+        Array [
+          Object {
+            "borderRadius": 20,
+            "color": "white",
+            "height": "30%",
+            "width": "90%",
+          },
+          Object {
+            "marginBottom": 10,
+          },
+        ]
+      }
+      testID="AnswerTextInput"
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FD4365",
+        "borderColor": "transparent",
+        "borderRadius": 15,
+        "borderStyle": "solid",
+        "borderWidth": 0,
+        "elevation": 0,
+        "justifyContent": "center",
+        "minWidth": 64,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 0,
+        "shadowRadius": 0,
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": undefined,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 15,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "letterSpacing": 1,
+                  "marginHorizontal": 16,
+                  "marginVertical": 9,
+                  "textAlign": "center",
+                },
+                undefined,
+                Object {
+                  "textTransform": "uppercase",
+                },
+                Object {
+                  "color": "#6200ee",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+                Object {
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "bold",
+                },
+                Object {
+                  "color": "white",
+                },
+              ]
+            }
+          >
+            Create
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

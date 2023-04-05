@@ -1,0 +1,32 @@
+image: node:17.1.0
+
+stages:          # List of stages for jobs, and their order of execution
+  - build
+  - test
+
+default:
+  before_script:
+    - apt-get update
+    - apt-get update && apt-get install -y libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb libgbm-dev
+
+build-job:       # This job runs in the build stage, which runs first.
+  stage: build
+  allow_failure: true
+  cache:
+    key: ${CI_BUILD_REF_NAME}
+    paths:
+      - ./Karteikarten/node_modules/
+  artifacts:
+    paths:
+      - ./Karteikarten/node_modules/
+  script:
+      - cd ./Karteikarten
+      - npm cache clear --force
+      - npm ci
+
+test-job:
+  stage: test
+  allow_failure: true
+  script:
+    - cd ./Karteikarten
+    - npm run testci -- -u --forceExit
