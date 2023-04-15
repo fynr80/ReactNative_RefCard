@@ -2,6 +2,10 @@
 
 # SWT-P_SS22_Gruppe2
 ![alt text](https://github.com/fynr80/ReactNative_RefCard/blob/main/KlickPfad.png)
+![alt text](https://github.com/fynr80/Flutter_DefaultLogIn/blob/main/Screenshots_Screens/PasswortforgottenScreen.png)
+![alt text](https://github.com/fynr80/Flutter_DefaultLogIn/blob/main/Screenshots_Screens/RegistrationScreen.png)
+
+
 Statistiken belegen, dass das Lernen basierend auf der Methode des Spaced-Repetitions einen bis zu 200 Prozent bessere Merkfähigkeit darbietet.
 RefCard knüpft genau da an und ersetzt andere lern Apps, welche immer noch nach einem veralteten System arbeiten und bietet unseren Nutzer eine bessere Alternative, um für kommende Ereignisse ideal vorbereitet zu sein.
 Wir bieten Ihnen eine Möglichkeit, gänzlich auf digitalisierte Karteikarten umzusteigen und gleichzeitig bessere Ergebnisse zu erzielen.
